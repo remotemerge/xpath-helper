@@ -1,6 +1,6 @@
 import { assert, test } from 'vitest';
 
-import Parser from '../dist/index.es.js';
+import Parser from '../src/index';
 import htmlContent from './data/products.html';
 
 const parser = new Parser(htmlContent);

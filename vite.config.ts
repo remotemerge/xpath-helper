@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [dts({ include: ['src/*.ts'] })],
   build: {
     minify: false,
+    target: 'esnext',
     lib: {
       entry: 'src/index.ts',
       name: 'XPathParser',
