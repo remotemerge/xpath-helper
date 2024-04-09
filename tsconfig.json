@@ -10,7 +10,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "noImplicitAny": true,
-    "typeRoots": ["node_modules/@types", "src/types"]
+    "typeRoots": ["node_modules/@types", "dist"]
   },
-  "include": ["makers/*.ts", "src/types/*.ts", "src/*.ts"]
+  "include": ["*.ts", "makers/*.ts", "src/*.ts"]
 }

@@ -4,7 +4,7 @@ import dts from 'vite-plugin-dts';
 
 // overwrite configs
 export default defineConfig({
-  plugins: [dts({ include: ['src/*.ts', 'src/types/*.ts'] })],
+  plugins: [dts({ include: ['src/*.ts'] })],
   build: {
     minify: false,
     lib: {
