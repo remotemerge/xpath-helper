@@ -1,5 +1,4 @@
-import { test } from 'vitest';
-import assert from 'assert';
+import { assert, test } from 'vitest';
 
 import Parser from '../dist/index.es.js';
 import htmlContent from './data/products.html';
