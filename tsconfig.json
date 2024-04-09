@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
     "skipLibCheck": true,
     "strict": true,
-    "target": "ESNext",
-    "typeRoots": [
-      "node_modules/@types",
-      "src/types"
-    ]
+    "checkJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "typeRoots": ["node_modules/@types", "dist"]
   },
-  "include": [
-    "src/types/parser.ts",
-    "src/index.ts"
-  ]
+  "include": ["*.ts", "makers/*.ts", "src/*.ts"]
 }

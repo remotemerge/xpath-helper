@@ -5,7 +5,7 @@
 ![Downloads](https://img.shields.io/npm/dt/@remotemerge/xpath-parser)
 ![License](https://img.shields.io/npm/l/@remotemerge/xpath-parser)
 
-XPath Parser is a modern JavaScript utility to parse XPath expressions; built for web scraping in a JavaScript
+XPath Parser is a JavaScript utility for extracting data from HTML and XML documents; built for web scraping in a JavaScript
 environment. It's open source, modern, lightweight and fast. You can easily integrate it into new or existing web
 crawlers, browser extensions, etc.
 
