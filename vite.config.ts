@@ -1,11 +1,10 @@
 // modules
 import { defineConfig } from 'vitest/config';
+import dts from 'vite-plugin-dts';
 
 // overwrite configs
 export default defineConfig({
-  test: {
-    environment: 'jsdom',
-  },
+  plugins: [dts({ include: ['src/*.ts', 'src/types/*.ts'] })],
   build: {
     minify: false,
     lib: {
