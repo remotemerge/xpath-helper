@@ -36,7 +36,7 @@
     "lint": "eslint --ext .ts src",
     "lint:fix": "eslint --ext .ts --fix src",
     "test": "vitest run",
-    "build": "vite build && tsc --project tsconfig.dts.json && node --no-warnings package.js",
+    "build": "vite build && tsc --project tsconfig.dts.json && tsx ./makers/package.ts",
     "build:types": "tsc --project tsconfig.dts.json"
   },
   "devDependencies": {
@@ -47,6 +47,7 @@
     "eslint-plugin-prettier": "^5.1.3",
     "jsdom": "^24.0.0",
     "prettier": "^3.2.5",
+    "tsx": "^4.7.2",
     "typescript": "^5.4.4",
     "vite": "^5.2.8",
     "vitest": "^1.4.0"
